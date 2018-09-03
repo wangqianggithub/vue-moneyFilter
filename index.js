@@ -1,4 +1,4 @@
-//金钱格式全局过滤器
+//金钱格式全局过滤器,vue自2.0版本起，已经没有内置currency过滤器了
 //currency，￥/$
 //decimals，保留几位小数
 Vue.filter('money', function(value, currency, decimals) {
